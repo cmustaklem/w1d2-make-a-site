@@ -101,7 +101,7 @@ body {
 }
 
 .beautiful {
-    width: 250 px;
+    width: 250px;
     background: transparent;
     border: 2px solid blue;
     border-radius: 10px;
@@ -186,6 +186,7 @@ body {
     color: white;
     text-shadow: 2px 2px #000000;
     font-size: 30px;
+    padding: 10px 0px 10px 0px;
 }
 
 
@@ -230,7 +231,7 @@ body {
 }
 
 a.button {
-    width: 250 px;
+    width: 250px;
     background: transparent;
     border: transparent;
     border-radius: 10px;
@@ -272,6 +273,7 @@ th {
     width: 30%;
     transform: scale(1.2) rotate(10deg);
     transform: translateX(-10px) translateY(-10px) scale(1.5);
+    padding-top: 30px;
     padding-bottom: 70px;
 }
 .imgfloat {
@@ -282,4 +284,13 @@ th {
 .imgfloatleft {
     float: left;
     margin: 0px 0px 0px 10px;
+}
+
+
+table, th, td {
+border: 1px solid black;
+   font-style: italic;
+   font-family: 'Lalezar', cursive;
+   width: 60%;
+   
 }
